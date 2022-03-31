@@ -43,7 +43,7 @@ export class AppComponent implements AfterViewInit  {
   }
 
   getValue(val:string){
-    console.log(val);
+    console.log(val + "valorGit" );
 
     this._ipGeolocation.GetIpGeolocation(val).subscribe(res => {
         console.log(res);
